@@ -1,0 +1,26 @@
+body {
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+@font-face {
+    font-family: minhaFont;
+    src: url(LifeCraft_Font.ttf);
+}
+
+ h1 {
+        text-align: left;
+        font-family: minhaFont;
+        font-size: 70px;
+        
+    }
+
+    .img {
+        width: 80px;
+        border-radius: 100px;
+        border: solid 8px black;
+        
+    }
